@@ -1,7 +1,7 @@
 --- 
 # TinyTapeout project information
 project:
-  wokwi_id:    357464855584307201 # If using wokwi, set this to your project's ID
+  wokwi_id:    359259141755466753 # If using wokwi, set this to your project's ID
 #  source_files:        # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. Source files must be in ./src
 #    - counter.v
 #    - decoder.v
@@ -15,10 +15,10 @@ project:
 #
 # This info will be automatically collected and used to make a datasheet for the chip.
 documentation: 
-  author:       "Matt Venn"                     # Your name
-  title:        "Test Inverter Project"         # Project title
+  author:       "William"                     # Your name
+  title:        "Flip flop"         # Project title
   language:     "wokwi"                         # other examples include Verilog, Amaranth, VHDL, etc
-  description:  "Inverts every line. This project is also used to fill any empty design spaces."      # Short description of what your project does
+  description:  "flip flop"      # Short description of what your project does
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
@@ -51,8 +51,8 @@ documentation:
 
 # The following fields are optional
   external_hw:  ""      # Describe any external hardware needed
-  discord:      "mattvenn#1907"      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
-  tag:          "test"  # encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
+  discord:      ""      # Your discord handle, used for communication and automatically assigning tapeout role after a submission
+  tag:          ""  # encryption, experiment, clock, animation, utility, industrial, pwm, fpga, alu, microprocessor, risc, riscv, sensor, signal generator, fft, filter, music, bcd, sound, serial, timer, random number generator, calculator, decoder, counter, puzzle, multiplier, game, oscillator,
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository
